@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+  
+    <Component>
+      <Id>
+        <TypeId>PhysicalObject</TypeId>
+        <SubtypeId>BodyArmourLevel1</SubtypeId>
+      </Id>
+      <DisplayName>Body Armour Type 1</DisplayName>
+      <Icon>Icons\BodyArmour.png</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>150</Mass>
+      <Volume>600</Volume>
+      <Model>Models\BodyArmourItem.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>400</MaxIntegrity>
+      <DropProbability>0.05</DropProbability>
+      <Health>15</Health>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>PhysicalObject</TypeId>
+        <SubtypeId>BodyArmourLevel2</SubtypeId>
+      </Id>
+      <DisplayName>Body Armour Type 2</DisplayName>
+      <Icon>Icons\BodyArmour.png</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>150</Mass>
+      <Volume>600</Volume>
+      <Model>Models\BodyArmourItem.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>400</MaxIntegrity>
+      <DropProbability>0.05</DropProbability>
+      <Health>15</Health>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>PhysicalObject</TypeId>
+        <SubtypeId>BodyArmourLevel3</SubtypeId>
+      </Id>
+      <DisplayName>Body Armour Type 3</DisplayName>
+      <Icon>Icons\BodyArmour.png</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>150</Mass>
+      <Volume>600</Volume>
+      <Model>Models\BodyArmourItem.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>400</MaxIntegrity>
+      <DropProbability>0.05</DropProbability>
+      <Health>15</Health>
+    </Component>
+	
+  </Components>
+</Definitions>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+   
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BodyArmourLevel1Print</SubtypeId>
+      </Id>
+      <DisplayName>Body Armour Level 1</DisplayName>
+      <Icon>Icons\BodyArmour.png</Icon>
+      <Prerequisites>
+                <Item Amount="9" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="BodyArmourLevel1" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BodyArmourLevel2Print</SubtypeId>
+      </Id>
+      <DisplayName>Body Armour Level 2</DisplayName>
+      <Icon>Icons\BodyArmour.png</Icon>
+      <Prerequisites>
+                <Item Amount="9" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="BodyArmourLevel2" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BodyArmourLevel3Print</SubtypeId>
+      </Id>
+      <DisplayName>Body Armour Level 3</DisplayName>
+      <Icon>Icons\BodyArmour.png</Icon>
+      <Prerequisites>
+                <Item Amount="9" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="9" TypeId="Ingot" SubtypeId="Cobalt" />
+		<Item Amount="12" TypeId="Ingot" SubtypeId="Platinum" />
+		<Item Amount="12" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="BodyArmourLevel3" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+  </Blueprints>
+</Definitions>
